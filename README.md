@@ -44,11 +44,13 @@ If you find an interesting paper and would like to add it here, please create a 
 
 ## Data analysis
 
-### Synthesis data/planning
+### Synthesis data analysis/planning
 
 - [Materials Synthesis Insights from Scientific Literature via Text Extraction and Machine Learning by Kim et al](https://doi.org/10.1021/acs.chemmater.7b03500): Analysis on synthesis conditions for titania nanotubes extracted from literature.
+- [Virtual screening of inorganic materials synthesis parameters with deep learning by Kim et al](https://doi.org/10.1038/s41524-017-0055-6): Use variational autoencoder to encode text and represent synthesis conditions especially for SrTiO3, TiO2, MnO compounds.
 - [Inorganic Materials Synthesis Planning with Literature-Trained Neural Networks by Kim et al](https://doi.org/10.1021/acs.jcim.9b00995): Conditional variational autoencoder learning of synthesis actions and predictions for perovskite compounds.
 
-### Knowledge base/graph
+### Chemical knowledge base/graph
 
+- [Unsupervised word embeddings capture latent knowledge from materials science literature by Tshitoyan et al](https://doi.org/10.1038/s41586-019-1335-8): Discover hidden chemistry information using unsupervised word embedding methods, with emphasis on thermoelectric materials.
 - [A Relation Aware Search Engine for Materials Science by Shah et al](https://doi.org/10.1007/s40192-017-0105-4): A search engine that indexes information tuples (object, property, value) from articles and allows relational search. (Their data reposited at NIST Materials Data Repository [https://materialsdata.nist.gov/handle/11256/950](https://materialsdata.nist.gov/handle/11256/950)
