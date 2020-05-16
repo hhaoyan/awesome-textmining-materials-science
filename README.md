@@ -20,11 +20,16 @@ If you find an interesting paper and would like to add it here, please create a 
 - [tesseract](https://github.com/tesseract-ocr/tesseract): An open source C++ OCR tool based on LSTM that supports many languages.
 - [Google Cloud OCR](https://cloud.google.com/functions/docs/tutorials/ocr): Google Cloud OCR is highly accurate for books but may suffer from bad recognition accuracy for chemical/materials science symbols and equations.
 
+### Image data extraction
+- [ImageDataExtractor: A Tool To Extract and Quantify Data from Microscopy Images by Mukaddem et al](https://doi.org/10.1021/acs.jcim.9b00734): Extract information from microscopy images. The code homepage is [http://www.imagedataextractor.org/](http://www.imagedataextractor.org/).
+
 ## Datasets/databases
 
 - [Machine-learned and codified synthesis parameters of oxide materials by Kim et al](https://doi.org/10.1038/sdata.2017.127): Dataset on synthesis of 30 oxide systems extracted from 76K articles.
 - [Text-mined dataset of inorganic materials synthesis recipes by Kononova et al](https://doi.org/10.1038/s41597-019-0224-1): 20K balanced inorganic synthesis reactions and metadata including experimental conditions extracted from 53K articles.
 - [Annotating and Extracting Synthesis Process of All-Solid-State Batteries from Scientific Literature by Kuniyoshi et al](https://arxiv.org/abs/2002.07339): NER and dependencies annotated/trained on 243 all-solid-state battery articles.
+- [Auto-generated materials database of Curie and Néel temperatures via semi-supervised relationship extraction by Court et al](https://doi.org/10.1038/sdata.2018.111): 40K Curie and Néel temperatures extracted from 68K articles.
+- [An open experimental database for exploring inorganic materials by Zakutayev et al](https://doi.org/10.1038/sdata.2018.53): 140K entries on high throughput experimental materials (HTEM) including synthesis conditions, chemical composition, crystal structure, optoelectronic property measurements, etc.
 
 ## NLP pipelines
 
@@ -36,3 +41,14 @@ If you find an interesting paper and would like to add it here, please create a 
 ### Text classification/categorization
 
 - [Semi-supervised machine-learning classification of materials synthesis procedures by Huo et al](https://doi.org/10.1038/s41524-019-0204-1): Identify synthesis paragraphs using LDA and random forest.
+
+## Data analysis
+
+### Synthesis data/planning
+
+- [Materials Synthesis Insights from Scientific Literature via Text Extraction and Machine Learning by Kim et al](https://doi.org/10.1021/acs.chemmater.7b03500): Analysis on synthesis conditions for titania nanotubes extracted from literature.
+- [Inorganic Materials Synthesis Planning with Literature-Trained Neural Networks by Kim et al](https://doi.org/10.1021/acs.jcim.9b00995): Conditional variational autoencoder learning of synthesis actions and predictions for perovskite compounds.
+
+### Knowledge base/graph
+
+- [A Relation Aware Search Engine for Materials Science by Shah et al](https://doi.org/10.1007/s40192-017-0105-4): A search engine that indexes information tuples (object, property, value) from articles and allows relational search. (Their data reposited at NIST Materials Data Repository [https://materialsdata.nist.gov/handle/11256/950](https://materialsdata.nist.gov/handle/11256/950)
