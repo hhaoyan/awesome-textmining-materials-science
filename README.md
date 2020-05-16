@@ -1,5 +1,5 @@
-# Text mining ⛏️ materials science
-A collection of papers on text mining for materials science. Note: this is a work in progress, I will constantly update this page.
+# Awesome text mining ⛏️ for materials science
+A collection of papers on text mining for materials science. **Note: this is a work in progress, I will constantly update this page.**
 
 If you find an interesting paper and would like to add it here, please create a PR request.
 
